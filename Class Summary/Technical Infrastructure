@@ -1,0 +1,32 @@
+Goals:
+  -> Project Req
+  -> Website
+  -> Message forum
+  -> Version Control
+  -> Bug Tracker
+  -> Live chatting system
+  -> wiki
+  -> Translation
+  -> SNS 
+  
+  Technical Infrastructure is:
+    Technology infrastructure are foundational technology services, software, equipment, facilities and structures upon which the capabilities of nations, cities and organizations are built. 
+    This includes both IT infrastructure and traditional infrastructure that is sufficiently advanced such that it can be considered modern technology.
+    
+    
+When developing your project it is mandatory to be more efficient as it possible. As the brooks law states:
+As more people are contributing to the work, less productive the project dev goes.
+
+
+In order for your OSS project to be more famous and more succesful, you must follow some tips.
+For example:
+  -> As more people get interested into your project you must state your requirements.
+  -> Create a website where non developer people can easily find all your information. Important, not to make One size fit all website,
+    as you must divide your target into developers who can contribute or people who want to use your project for their personal use.
+  -> Message forum is imporant to be in touch with your contributors or users.
+  -> Control your version, do not use same version all the time
+  -> Track your bugs, and fix them. Open a ticket, discuss with the commiters and as long as you find and fix the bug close the ticket.
+  -> Live chatting system may be useful when dealing with a lot of users
+  -> Use wiki to state your documenation and more information about your projects.
+  -> If it is possible translate your project into several languages, so more users can find and use it
+  -> Be social...
