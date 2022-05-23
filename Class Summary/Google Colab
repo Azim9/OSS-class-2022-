@@ -1,0 +1,7 @@
+Google Colab:
+  -> With Colab you can import an image dataset, train an image classifier on it, and evaluate the model, all in just a few lines of code. 
+     Colab notebooks execute code on Google's cloud servers, meaning you can leverage the power of Google hardware, 
+     including GPUs and TPUs, regardless of the power of your machine. All you need is a browser.
+     
+More about Google colaboratory:
+  -> https://colab.research.google.com/
