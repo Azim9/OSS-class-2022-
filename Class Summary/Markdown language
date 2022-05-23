@@ -1,0 +1,36 @@
+Markdown laguage is:
+  -> is a very lightweight markup language. It is used to creat formatted text using text editor.
+  * Content
+     * Basic syntax
+ 
+     
+   
+#  h1 tag
+##  h2 tag
+###  h3 tag
+
+
+*This is italic*
+_This is also italic_
+**This is bold**
+__This is also bold__
+
+
+> this is a single block quote.
+>> this is a nested block quote.
+
+ 1. First item
+ 2. Second item
+ 
+ 
+ # For code usage
+   ```c
+  Printf("Hello World!");
+  
+  
+  # Link 
+  Normal link Syntax:
+[title](https://www.example.com)
+
+Example:
+[Github](https://www.github.com)
