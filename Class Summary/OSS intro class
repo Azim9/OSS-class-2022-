@@ -1,0 +1,36 @@
+What is an OSS?
+-> Open Source Software is a software that can accessible for anyone for free usage. OSS projects can be used for your own commercial use
+    as long as you follow rules and regualtions of the original project.
+-> OSS is the project that can be:
+  Used for any purpose
+  Change or practice the program
+  Can be easily redistributed
+
+The OSS dev flow: 
+Developer -> Trusted developer -> Trusted saving place -> Distributer -> User
+As the developer developes his project he can easily share it with another devs, and save it to repositories as Github. As long as the porject finished
+it can be distributed between the users. And the users, if he understands the code and is able to change some of it, he can go to origianl repo, fork, 
+pull the request and easily change the original code and merge it...
+
+
+In order to start your own OSS project:
+  -> Start with the abilities you have
+  -> Choose the license
+  -> Choose the community
+  -> Restart existing or closes projects
+  -> Share with the public
+  
+  
+ Goals and tips to a successful OSS
+  -> Choose the right name
+  -> State your Mission statement
+  -> Make sure that your project is free
+  -> List your Features and Requirments
+  -> Dev status
+  -> Donwload
+  -> Version Control
+  -> Communication channel
+  -> Dev guildline 
+  -> Documentation
+  -> Demo, screenshot, video etc
+  -> Hosting
