@@ -1,0 +1,10 @@
+You can find the proper documenation of GitHub or Git usage in their original documentation website.
+For GitHub: 
+  -> https://docs.github.com/en/rest
+For Git:
+  -> https://git-scm.com/doc
+  
+Tip:
+  -> You can use GitHub own website or Git API. It depends on your own prefernces. For me, it is more interesting and more joyable to use
+  Git API, as it is faster and more convinient. However, if you are not familiar with Git API or you do not want to spend your time for learning
+  GIT, you can easily use GitHub...
