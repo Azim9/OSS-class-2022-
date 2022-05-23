@@ -20,3 +20,19 @@ The main goal of the class is to be able to write very good and comprehensive pu
 * 11. GIS with OSMNX
 * 12. Setuptools
 * 13. Pytest
+
+## Contributing
+If you are from 2022 OSS spring semester class, please free to commit. There is no limmitations to anyone.
+If you want to commit in Korean language, please do not be hesitate to open a pull request and change any mistakes that any of commiters may have done. 
+
+## Limitations
+There are no limitations to the contributing or pulling request unleas you are really serious of commiting to the class.
+
+## License
+This project is open source and availabe under the MIT Liecense.
+
+## Contacts 
+If you want to contact me you can do this via emal:
+mirzoevazim372@gmail.com
+If I do not reply within 24 hours, it means that exam week has come and I am not available at the time.
+Thank you for your understanding and feel free to contact me anytime.
