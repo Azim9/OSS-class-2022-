@@ -1,0 +1,30 @@
+Goals:
+  -> You can discover the ramaining defefcts
+  -> You can check if the requirement statement is chronicle
+  -> You can see that your users and business needs are met.
+  -> Can prevent defects
+  
+
+
+PyTest:
+  -> Is a testing framework that allows users to write test codes using Python programming language. It can be used to write various types of 
+     of software tests, including unit tests, intregration tests, end-to-end tests.
+     
+ 
+ Practice:
+  -> First you must open your google colab or your fabourite IDE. Then in the termianl write "!pip install pytest"
+  -> Check whether you succeded by " pytest -h" 
+  
+  -> Open a new file and write your first test:
+          -> import pytest
+          -> def test_file1_method1():
+          ->      x = 5
+          ->      y = 6
+          -> assert x+1==y, 'test failed'
+          -> assert x == y, 'test failed'
+   
+   
+   -> Now go back to your terminal and write: '!pytest test_file.py'
+   -> output:
+   -> failed 1, succeded 1
+  
