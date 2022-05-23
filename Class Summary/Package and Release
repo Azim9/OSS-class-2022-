@@ -1,0 +1,55 @@
+Goals: 
+  -> Release Numbering
+  -> Release Branches
+  -> Release Stabilize
+  -> Pacakging 
+  -> Testing and Releasing
+  -> Supporting your old versions
+  -> Daily Dev
+  
+  
+  What are release:
+    -> As long as you have project, it can be tedious to make it perfect from the first reslease of your project. During development
+    you can make lots of mistakes, and you want to fix them. As you long you fix your project, you must rerelease it with different numbering.
+    For example:
+      v1.0.0 Means your first release
+      As long as you fixed the bug or changed some features
+      v1.1.0 or v2.0.0 and so on.
+    Releasing numbering may differ, it can be Scanley and Singer type. Scanely type: 2.3 and Singer: 5.11.4
+    
+    There are some types of release components:
+    -> Scanley 2.3.0 (Beta 1) 
+    -> Scanley 2.3.0 (Beta 2) 
+    -> Scanley 2.3.0 (Beta 3)
+     major.minor.micro
+    
+    Stable, Unstable, Development, RC (Release Candidate)
+    
+    
+Packaging:
+  -> Is the traditional form of distribution of free software is source code. 
+  Basic Standards:
+    -> Format
+    -> Name and Layout
+    -> Compilation and Installion
+    -> Binary Packages
+    
+    
+    -> Format:
+      -> Source code must be provided within a standard format that maintains a directory tree
+         For example: compress, gzip, bzip etc
+    -> Name and Layout:
+      -> Package name: Software name + Release number 
+         Example:  Scanley-2.5.0.tar.gz
+         
+     -> Compilation and Installation:
+        -> Must describe compilation and istallation method to users:
+           For example: Unix users must use  " sudo apt-get install Scanley-2.5.0 " 
+      
+     Binary Packages:
+        -> Using docker make binary packages...
+        
+        
+ Your project must feel as best-out-of-box experience. It is when you buy or install some new game to your pc, you anticipate it to be great
+ and it is great... 
+          
