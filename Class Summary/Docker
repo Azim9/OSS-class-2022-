@@ -1,0 +1,103 @@
+Docker:
+  -> is an open platform for developing, shipping, and running applications. Docker enables you to separate
+    your apps from your infrastructure... 
+  -> Provides with environment to run process
+  -> Organize the separation of the environment
+  -> Setting up a sandbox with defined resources
+  
+Container:
+  -> a standard unit of softwar that packages up cod and all its dependencie
+Container images:
+  -> a lightweigt, standalone, executable package of software
+  -> includes everything needed run an application
+  -> code, runtime, system tools, system libraries and settings
+Advantages:
+  -> Container can run single process
+  -> Can encupsualte the single command
+    -> Can be used together with:
+      -> dataBase
+      -> Web server
+      -> Provides with network port 
+  
+First docker command:
+  -> sudo docker run busybox echo 'hello world'
+  
+  -> downloads busybox 
+  -> creates new container
+  -> runs with container echo 'hello world'
+  
+  
+  
+Images and Container:
+  -> Docker Images:
+    -> Immutable for container
+    -> Able to push/pull to registry
+    -> [registry/][user/]name[:tag] name of image
+    -> Latest is the basic
+  
+  -> Docker Container
+    -> Instance of an Image
+    -> Able to start, stop, restart
+    -> Maintains file system changes in the system
+    -> New image can be created from a current state of the container
+
+
+Basic Image handling commads:
+  -> Searching inside of the registry:
+    * docker search <term>
+  -> Downloading or updating from registry:
+    * docker pull <image>
+  -> Updating registry image:
+    * docker push <image> 
+  -> Listing downloaded images:
+    * docker images
+  -> Chaging the name 
+    * docker tag <oldname> <newname>
+  -> Deleting local image
+    * docker rmi <image>
+    
+    
+Docker run:
+  -> Running new container 
+    * docker run <imagename>
+    
+    
+Managing container
+  -> Listing currently running containers
+    * docker ps
+  -> Listing all containers
+    * docker ps -a
+  -> Inspecting metadata of container
+    * docker inspect <container>
+    
+Container lifecycle
+  -> Stopage of container
+    * docker stop <container>
+  -> Starting container
+    * docker start <container>
+  -> Container force stopage
+    * docker kill <container>
+  -> Removing container
+    * docker remove <container>
+    
+    
+Interaction and Debugging Container
+  -> Running my command on existing container
+    * docker exec <container> <command>
+    * docker exec -it <container>bash
+  -> Inspecting container log
+    * docker logs -f <container>
+  -> Copying container files
+    * docker cp my_webserber:/etc/nginx/ngix.conf~/
+
+
+Modifying container
+  -> Detect changes in the container file system
+    * docker diff <container>
+  -> Starting new image from changed container 
+    * docker commit <container> <imagename> 
+    
+    
+  
+  
+  
